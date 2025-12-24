@@ -122,4 +122,5 @@ Python, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost, Matplotlib, Se
 ## Author
 
 Salamat Tolibaev
+
 Data Scientist / ML Engineer
