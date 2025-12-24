@@ -43,17 +43,17 @@ One-Hot Encoding для plans, sex
 
 Обучены и сравнены модели:
 
-Logistic Regression (baseline)
+- Logistic Regression (baseline)
 
-Random Forest
+- Random Forest
 
-Gradient Boosting
+- Gradient Boosting
 
-XGBoost
+- XGBoost
 
-LightGBM
+- LightGBM
 
-CatBoost
+- CatBoost
 
 
 Для всех моделей:
