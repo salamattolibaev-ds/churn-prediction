@@ -15,7 +15,7 @@ churn-prediction/
 ├── requirements.txt         # зависимости
 ├── README.md
 └── main.py                  # основной скрипт / пайплайн (пока в планах)
-'''
+
 # Customer Churn Prediction (Telecom)
 ## Project Overview
 
