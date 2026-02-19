@@ -1,10 +1,11 @@
 ## Project Structure
+```text
 churn-prediction/
-├── data/                    # сырые и обработанные данные + описание
-├── notebooks/               # Jupyter notebooks для исследования и экспериментов
+├── data/                    # данные + описание
+├── notebooks/               # exploratory analysis & modeling
 │   ├── 01_eda_preprocess.ipynb
 │   └── 02_modeling_eval.ipynb
-├── src/                     # production-ready код (импортируется в notebooks и main.py)
+├── src/                     # reusable code (модули, которые можно импортировать)
 │   ├── data.py              # загрузка, очистка, feature engineering
 │   ├── modeling.py          # обучение, оценка моделей
 │   └── utils.py             # вспомогательные функции
