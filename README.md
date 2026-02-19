@@ -1,19 +1,19 @@
 ## Project Structure
 churn-prediction/
-├── data/                  # data description
-├── notebooks/             # exploratory analysis & modeling
+├── data/                    # сырые и обработанные данные + описание
+├── notebooks/               # Jupyter notebooks для исследования и экспериментов
 │   ├── 01_eda_preprocess.ipynb
 │   └── 02_modeling_eval.ipynb
-├── src/                   # reusable code
-│   ├── data.py
-│   ├── modeling.py
-│   └── utils.py
-├── models/                # saved models (.gitignore)
-├── reports/
-│   └── figures/
-├── requirements.txt
+├── src/                     # production-ready код (импортируется в notebooks и main.py)
+│   ├── data.py              # загрузка, очистка, feature engineering
+│   ├── modeling.py          # обучение, оценка моделей
+│   └── utils.py             # вспомогательные функции
+├── models/                  # сохранённые обученные модели (обычно в .gitignore)
+├── reports/                 # результаты экспериментов
+│   └── figures/             # графики, визуализации
+├── requirements.txt         # зависимости
 ├── README.md
-└── main.py                # (TBD) pipeline runner
+└── main.py                  # основной скрипт / пайплайн (пока в планах)
 
 # Customer Churn Prediction (Telecom)
 ## Project Overview
