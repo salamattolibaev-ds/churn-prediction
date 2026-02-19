@@ -1,3 +1,20 @@
+## Project Structure
+churn-prediction/
+├── data/                  # data description
+├── notebooks/             # exploratory analysis & modeling
+│   ├── 01_eda_preprocess.ipynb
+│   └── 02_modeling_eval.ipynb
+├── src/                   # reusable code
+│   ├── data.py
+│   ├── modeling.py
+│   └── utils.py
+├── models/                # saved models (.gitignore)
+├── reports/
+│   └── figures/
+├── requirements.txt
+├── README.md
+└── main.py                # (TBD) pipeline runner
+
 # Customer Churn Prediction (Telecom)
 ## Project Overview
 
